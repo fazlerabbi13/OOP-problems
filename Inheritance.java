@@ -38,7 +38,9 @@ class Shape{
 
 public class Inheritance {
     public static void main(String[] args) {
-        Shape c = new Circle(5);
+        Shape r= new Rectangle(4,5);
+         Shape c = new Circle(5);
         System.out.println("circle "+c.area());
+        System.out.println("rectangle "+r.area());
     }
 }
